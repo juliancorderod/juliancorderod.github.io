@@ -1,0 +1,13 @@
+{
+"companyName": "solimporta",
+"productName": "bardo josé",
+"dataUrl": "bardo jose.data.unityweb",
+"asmCodeUrl": "bardo jose.asm.code.unityweb",
+"asmMemoryUrl": "bardo jose.asm.memory.unityweb",
+"asmFrameworkUrl": "bardo jose.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#1C2445"
+}

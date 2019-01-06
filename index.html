@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>bardo josé</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/bardo jose.json", {onProgress: UnityProgress});
+    </script>
+    <script>window.SimpleSpectrum={};window.AudioContext=(function(){var q=window.AudioContext||window.webkitAudioContext;return function(){var ac=new q();window.SimpleSpectrum.ac=ac;window.SimpleSpectrum.a=ac.createAnalyser();window.SimpleSpectrum.a.smoothingTimeConstant=0;window.SimpleSpectrum.fa=new Uint8Array(window.SimpleSpectrum.a.frequencyBinCount);window.SimpleSpectrum.la=new Uint8Array(window.SimpleSpectrum.a.fftSize);window.SimpleSpectrum.a.connect(ac.destination);ac.actualDestination=ac.destination;Object.defineProperty(ac,'destination',{value:window.SimpleSpectrum.a,writable:false});return ac;}})();</script>
+  </head>
+  <body>
+  	<div class="background" style="width: 100vw; height: 100vh; background: rgb(28, 36, 69);">
+    <div class="webgl-content">
+      	<div id="gameContainer" style="width: 960px; height: 600px"></div>
+      	<div class="footer">
+      		<div class="bardo"><a href="https://open.spotify.com/album/6Q9vGXfZBmPqI1V1hCVJFj" target="_blank">BARDO JOSÉ</a></div>
+        	<div class="disenado">DISEÑADO POR <a href="https://solimporta.com/" target="_blank">SOLIMPORTA</a></div>
+        	<div class="mejorcalidad">PARA MEJOR CALIDAD, DESCARGATELO <a href="https://solimporta.itch.io/bardo-jose">AQUÍ</a></div>
+        	<div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+      	</div>
+    </div>
+  </body>
+</html>
